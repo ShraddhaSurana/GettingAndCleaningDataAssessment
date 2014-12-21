@@ -4,6 +4,8 @@ GettingAndCleaningDataAssessment
 R scripts to clean data and make it tidy.
 
 run_analysis.R
+==============
+
 This R script performs the following steps, as per the project assignment instructions:
 
 Merges the training and the test sets to create one data set.
@@ -22,6 +24,7 @@ In your R enviroment (in the same folder where the data files are), load the scr
 source('run_analysis.R')
 The end result will be a file called tidyDataset.txt' in the same folder.
 
-final tidy dataset
+The final tidy dataset
+======================
 
 Each row in the final, clean dataset contains subject, activity, and measures for all required features (i.e., mean or standard deviation grouped on the subject id and the activity).
