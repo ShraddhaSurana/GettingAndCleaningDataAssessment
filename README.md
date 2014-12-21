@@ -19,7 +19,7 @@ This script assumes that you have already downloaded and unzipped the original S
 
 how to run the analysis
 
-In your R enviroment (in the same folder where the data files are), load the script:
+In your R enviroment (in the same folder where the UCI HAR Dataset folder is there), load the script:
 
 source('run_analysis.R')
 The end result will be a file called tidyDataset.txt' in the same folder.
