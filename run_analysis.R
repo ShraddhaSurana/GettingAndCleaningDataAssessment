@@ -49,5 +49,5 @@ names(filteredDataset)<-gsub("fBodyBodyGyro","frequency domain Body Gyroscope si
 
 tidyDataset <- aggregate(filteredDataset[,3:dim(filteredDataset)[2]], list(filteredDataset$subjectId, filteredDataset$Activity), mean)
 names(tidyDataset)[1:2] <- c('subjectId', 'Activity')
-write.table(tidyDataset, "tidyDataset.txt")
+write.table(tidyDataset, "tidyDataset.txt", row.name=FALSE)
 write.csv(tidyDataset, "tidyDataset.csv")
